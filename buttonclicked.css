@@ -1,0 +1,23 @@
+body{
+     align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: peachpuff;
+}
+button{
+     border-width: 5px; 
+     border-style: solid;
+    width: 200px; 
+    height: 50px; 
+    background-color: hsl(120, 100%, 25%);
+    transition: background-color 0.3s ease;
+    border-radius: 15px;
+     font-size: 2em;
+     font-weight: bold;
+     color: white;
+}
+button:hover {
+    background-color: hsl(120, 100%, 55%);
+    cursor: pointer;
+}
